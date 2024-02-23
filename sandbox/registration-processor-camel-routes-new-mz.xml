@@ -45,7 +45,8 @@
         <choice>
             <when>
                 <simple>${bodyAs(String)} contains '"isValid":true'</simple>
-                <to uri="eventbus:packet-classifier-bus-in" />
+                #<to uri="eventbus:packet-classifier-bus-in" />
+		<to uri="eventbus:packet-uingenerator-bus-in" />
             </when>
             <when>
                 <simple>${bodyAs(String)} contains '"isValid":false' and ${bodyAs(String)} contains '"internalError":false'</simple>
