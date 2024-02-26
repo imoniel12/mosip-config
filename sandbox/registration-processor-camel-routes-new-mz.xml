@@ -8,6 +8,7 @@
             <when>
                 <simple>${bodyAs(String)} contains '"isValid":true'</simple>
                 <to uri="eventbus:packet-uploader-bus-in" />
+		    packet-uingenerator-bus-in
             </when>
             <when>
                 <simple>${bodyAs(String)} contains '"internalError":true'</simple>
