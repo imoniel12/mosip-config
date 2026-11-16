@@ -7,7 +7,8 @@
 			"value" : "selectedHandles"
 		},
 		"name": {
-			"value": "fullName"
+			"value": "firstName",
+			"value": "lastName"
 		},
 		"gender": {
 			"value": "gender"
@@ -73,10 +74,10 @@
 			"value": "preferredLang"
 		},
 		"locationHierarchyForProfiling": {
-			"value": "zone,postalCode"
+			"value": "postalCode"
 		},
 		"addressLine1": {
-			"value": "addressLine1"
+			"value": "presentaddressLine1"
 		},
 		"addressLine2": {
 			"value": "addressLine2"
@@ -88,7 +89,7 @@
 			"value": "city"
 		},
 		"location2": {
-			"value": "region"
+			"value": "barangay"
 		},
 		"location3": {
 			"value": "province"
@@ -96,11 +97,8 @@
 		"postalCode": {
 			"value": "postalCode"
 		},
-		"location4": {
-			"value": "zone"
-		},
 		"fullAddress": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "addressLine1,addressLine2,addressLine3,city,barangay,province,postalCode"
 		},
 		"bestTwoFingers": {
 			"value": "bestTwoFingers"
@@ -115,7 +113,7 @@
 			"value": "phone"
 		},
 		"address": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "addressLine1,addressLine2,addressLine3,city,barangay,province,postalCode"
 		},
 		"individual_id": {
 			"value": "individual_id"
@@ -124,7 +122,7 @@
 		   "value": "fln,ad1,ad2,ad3,cit,reg,pro,poc,cph,em,ph,gen,dob"
 		},
 		"street_address": {
-			"value": "addressLine1,addressLine2,addressLine3"
+			"value": "presentaddressLine1,addressLine2,addressLine3"
 		},
 		"locality": {
 			"value": "city"
